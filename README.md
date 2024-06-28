@@ -90,9 +90,7 @@ Holiday Hub ist eine Webanwendung, die es Benutzern ermöglicht, Reisebewertunge
 
 Falls .env Verzeichnis nicht vorhanden, bitte eine .env im Stammverzeichnis erstellen und einfügen:
 
-    ```sh
-    MONGO_URI=mongodb://127.0.0.1:27017/holidayhub
-    ```
+MONGO_URI=mongodb://127.0.0.1:27017/holidayhub
 
 ## Docker
 
