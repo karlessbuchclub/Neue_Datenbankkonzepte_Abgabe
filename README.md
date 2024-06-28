@@ -51,8 +51,6 @@ Holiday Hub ist eine Webanwendung, die es Benutzern ermöglicht, Reisebewertunge
     npm install
     ```
 
-4. Stelle sicher, dass MongoDB läuft und konfiguriere die Umgebungsvariablen (siehe unten).
-
 5. Starte MongoDB mit Docker:
     ```sh
     docker-compose down
