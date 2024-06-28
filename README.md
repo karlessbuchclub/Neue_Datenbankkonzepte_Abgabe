@@ -83,8 +83,9 @@ Holiday Hub ist eine Webanwendung, die es Benutzern ermöglicht, Reisebewertunge
 ## Verwendung
 
 1. Öffne den Browser und gehe zu `http://localhost:3000`, um die Anwendung zu nutzen.
-2. Registriere dich als Benutzer oder melde dich an, wenn du bereits ein Konto hast.
-3. Füge Bewertungen hinzu oder sieh dir Bewertungen anderer Benutzer an.
+2. Registriere dich als Benutzer und melde dich mit deinem Benutzername und dem Passwort an (nicht die E-Mail, sondern der Benutzername)
+3. Wähle bei der Registrierung zwischen der Role "Admin" oder "User", um die verschiedenen FUnktionalitäten einzusehen.
+4. Füge Bewertungen hinzu oder sieh dir Bewertungen anderer Benutzer an.
 
 ## API Endpunkte
 
