@@ -7,10 +7,11 @@ Holiday Hub ist eine spezialisierte Plattform, die es Reisenden ermöglicht, ihr
 1. [Überblick](#überblick)
 2. [Features](#features)
 3. [Installation](#installation)
-4. [Verwendung](#verwendung)
-5. [API Endpunkte](#api-endpunkte)
-6. [Umgebungsvariablen](#umgebungsvariablen)
-7. [Docker](#docker)
+4. [MongoDB Datenbank mit MongoDB Compass einsehen](datenbankconnect)
+5. [Verwendung](#verwendung)
+6. [API Endpunkte](#api-endpunkte)
+7. [Umgebungsvariablen](#umgebungsvariablen)
+8. [Docker](#docker)
 
 ## Überblick
 
@@ -72,7 +73,7 @@ Holiday Hub ist eine Webanwendung, die es Benutzern ermöglicht, Reisebewertunge
     
 ## MongoDB Datenbank mit MongoDB Compass einsehen
 
-## Verbindung herstellen
+### Verbindung herstellen
 
 1. Öffne MongoDB Compass.
 2. Gib die Verbindungsdetails ein. Wenn deine MongoDB in einem Docker-Container läuft, kannst du localhost als Host verwenden und den entsprechenden Port, auf dem MongoDB läuft (standardmäßig 27017).
