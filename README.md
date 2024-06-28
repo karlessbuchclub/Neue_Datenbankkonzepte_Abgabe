@@ -11,8 +11,6 @@ Holiday Hub ist eine spezialisierte Plattform, die es Reisenden ermöglicht, ihr
 5. [API Endpunkte](#api-endpunkte)
 6. [Umgebungsvariablen](#umgebungsvariablen)
 7. [Docker](#docker)
-8. [Technologien](#technologien)
-9. [Autor](#autor)
 
 ## Überblick
 
@@ -38,7 +36,7 @@ Holiday Hub ist eine Webanwendung, die es Benutzern ermöglicht, Reisebewertunge
 
 1. Klone das Repository:
     ```sh
-    git clone https://github.com/karlessbuchclub/Neue_Datenbankkonzepte.git
+    git clone https://github.com/karlessbuchclub/Neue_Datenbankkonzepte_Abgabe.git
     ```
 
 2. Installiere die Abhängigkeiten für das Backend:
@@ -55,9 +53,11 @@ Holiday Hub ist eine Webanwendung, die es Benutzern ermöglicht, Reisebewertunge
 
 4. Stelle sicher, dass MongoDB läuft und konfiguriere die Umgebungsvariablen (siehe unten).
 
-5. Starte MongoDB:
+5. Starte MongoDB mit Docker:
     ```sh
-    mongod --dbpath /path/to/your/mongodb/data
+    docker-compose down
+    docker-compose build
+    docker-compose up -d
     ```
 
 6. Starte das Backend:
@@ -86,3 +86,14 @@ Holiday Hub ist eine Webanwendung, die es Benutzern ermöglicht, Reisebewertunge
 - `POST /api/listings`: Neue Bewertung hinzufügen
 - `DELETE /api/listings/:id`: Bewertung löschen (nur Admin)
 
+## Umgebungsvariablen
+
+Falls .env Verzeichnis nicht vorhanden, bitte eine .env im Stammverzeichnis erstellen und einfügen:
+
+    ```sh
+    MONGO_URI=mongodb://127.0.0.1:27017/holidayhub
+    ```
+
+## Docker
+
+Die Docker-Compose-Datei im Stammverzeichnis des Projekts ist bereits für MongoDB konfiguriert.
