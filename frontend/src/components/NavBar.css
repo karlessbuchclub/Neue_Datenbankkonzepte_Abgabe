@@ -1,0 +1,33 @@
+/* NavBar.css */
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .navbar-brand {
+    display: flex;
+    align-items: center;
+  }
+  
+  .navbar-nav {
+    display: flex;
+    align-items: center;
+  }
+  
+  .navbar-nav .btn {
+    margin-left: 10px;
+  }
+  
+  .navbar-collapse {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+  }
+  
+  .navbar-brand img {
+    /* Passen Sie die Größe des Logos an */
+    width: 150px;
+    height: 150px;
+  }
+  

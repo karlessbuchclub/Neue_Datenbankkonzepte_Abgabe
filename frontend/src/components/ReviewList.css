@@ -1,0 +1,27 @@
+.price-scale {
+    position: relative;
+    margin-top: 10px;
+  }
+  
+  .scale-background {
+    position: relative;
+    width: 100%;
+    height: 10px;
+    background: linear-gradient(to right, green, orange, red);
+    border-radius: 5px;
+  }
+  
+  .scale-indicator {
+    position: absolute;
+    top: -5px;
+    width: 10px;
+    height: 20px;
+    background-color: currentColor;
+    border-radius: 5px;
+  }
+  
+  .euro-signs {
+    margin-top: 10px;
+    font-size: 1.2em;
+  }
+  

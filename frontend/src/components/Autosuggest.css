@@ -1,0 +1,32 @@
+.suggestion {
+    padding: 10px;
+    border-bottom: 1px solid #ddd;
+    background-color: #fff;
+    cursor: pointer;
+  }
+  
+  .suggestion:hover {
+    background-color: #f0f0f0;
+  }
+  
+  .react-autosuggest__suggestions-list {
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+    position: absolute;
+    width: 100%;
+    border: 1px solid #ddd;
+    z-index: 2;
+  }
+  
+  .react-autosuggest__suggestion {
+    padding: 10px;
+    border-bottom: 1px solid #ddd;
+    background-color: #fff;
+    cursor: pointer;
+  }
+  
+  .react-autosuggest__suggestion--highlighted {
+    background-color: #f0f0f0;
+  }
+  
