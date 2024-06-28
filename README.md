@@ -7,7 +7,7 @@ Holiday Hub ist eine spezialisierte Plattform, die es Reisenden ermöglicht, ihr
 1. [Überblick](#überblick)
 2. [Features](#features)
 3. [Installation](#installation)
-4. [MongoDB Datenbank mit MongoDB Compass einsehen](datenbankconnect)
+4. [MongoDB Datenbank mit MongoDB Compass einsehen](#datenbankconnect)
 5. [Verwendung](#verwendung)
 6. [API Endpunkte](#api-endpunkte)
 7. [Umgebungsvariablen](#umgebungsvariablen)
